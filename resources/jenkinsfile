@@ -4,7 +4,7 @@ pipeline {
         stage('Test') {
             steps {
 			    bat '''
-				    dir
+				    testcafe "chrome:headless '--window-size=1920,1080'"
 				'''
 			}
         }
