@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite name="TestCafe Tests: Chrome 96.0.4664.110 / Windows 10" tests="1" failures="0" skipped="0" errors="0" time="14.886" timestamp="Mon, 20 Dec 2021 04:24:57 GMT" >
+  <testcase classname="Test Suite 01" name="TC01 - Verify user can search for weather of a city (screenshots: D:\Work\NAB\TestCafe_Practice\Screenshots\2021-12-20_11-24-41\Chrome\screenshot-1.png)" time="14.87">
+  </testcase>
+</testsuite>

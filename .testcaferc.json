@@ -1,0 +1,17 @@
+{
+	"src": ["Tests/"],
+	"screenshots" : {
+		"path": "Screenshots/",
+		"pathPattern": "${DATE}_${TIME}/${BROWSER}/screenshot-${FILE_INDEX}.png",
+		"thumbnails": false
+	},
+	"reporter": [
+	    {
+			"name": "spec"
+		},
+	    {
+		    "name": "xunit",
+            "output": "Reports/report.xml"
+	    }
+	]
+}
