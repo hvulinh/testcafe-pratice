@@ -1,8 +1,9 @@
 {
-	"src": ["Tests/"],
+	"src": ["tests/"],
+	"concurrency": 2,
 	"screenshots" : {
-		"path": "Screenshots/",
-		"pathPattern": "${DATE}_${TIME}/${BROWSER}/screenshot-${FILE_INDEX}.png",
+		"path": "screenshots/",
+		"pathPattern": "${DATE}_${TIME}/${BROWSER}/${TEST_ID}-SS${FILE_INDEX}.png",
 		"thumbnails": false
 	},
 	"reporter": [
@@ -11,7 +12,7 @@
 		},
 	    {
 		    "name": "xunit",
-            "output": "Reports/report.xml"
+            "output": "reports/report.xml"
 	    }
 	]
 }
