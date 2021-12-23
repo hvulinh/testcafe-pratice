@@ -20,7 +20,7 @@ test('TC01 - Verify user can search for weather of a city', async t => {
 			    await HomePage.dateInfo.innerText), new Date())).ok()
 		
 		.expect(HomePage.locInfo.visible).ok()
-		.expect(HomePage.locInfo.innerText).eql(DATA.TC01.expectedOutput.toString())
+		.expect(HomePage.locInfo.innerText).eql(DATA.TC01.expectedOutput)
 		
 		.expect(HomePage.tempInfo.visible).ok()
 		.expect(HomePage.tempInfo.innerText).match(TEMP_REGX)
