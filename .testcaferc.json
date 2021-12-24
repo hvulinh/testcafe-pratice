@@ -1,6 +1,6 @@
 {
 	"src": ["tests/"],
-	"concurrency": 2,
+	"concurrency": 1,
 	"screenshots" : {
 		"path": "screenshots/",
 		"pathPattern": "${DATE}_${TIME}/${BROWSER}/${TEST_ID}-SS${FILE_INDEX}.png",
