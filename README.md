@@ -29,7 +29,7 @@ Note: This pratice was done on Windows and have not tested on other platforms/OS
 
 ### Run commands
 
-The simple command to run test with Test Cafe has the following format: `testcafe \<browser\> \<path-to-tests\>`.  
+The simple command to run test with Test Cafe has the following format: `testcafe <browser> <path-to-tests>`.  
 So to run test with Chrome/Firefox, use:
 - `testcafe chrome tests` or
 - `testcafe firefox tests` or
@@ -54,8 +54,8 @@ Details:
 
 ## Project structure
 
-> root  
-&emsp; |- tests               &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;// contains test suites, test cases  
+root  
+&emsp; |- tests               &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;// contains test suites, test cases  
 &emsp; |- page_model          &emsp;&emsp;&emsp;&nbsp;// contains locators, actions for pages  
 &emsp; |- data                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&nbsp;// contains test data  
 &emsp; |- helpers             &emsp;&emsp;&emsp;&emsp;&emsp;&ensp;// contains helpers/utilities  
@@ -63,7 +63,7 @@ Details:
 &emsp; |- screenshots         &emsp;&emsp;&emsp;&ensp;// contains screenshots after running tests  
 &emsp; |- resources           &emsp;&emsp;&emsp;&emsp;&ensp;// contains other resources, scripts,...  
 &emsp; |- .testcaferc.json    &emsp;&emsp;// configuration file for Test Cafe  
-&emsp; |- README.md           &emsp;&emsp;&ensp;// overview of this project
+&emsp; |- README.md           &emsp;&emsp;&ensp;&ensp;// overview of this project
 
 ## CI/CD Solution
 
