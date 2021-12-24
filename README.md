@@ -18,7 +18,7 @@ Note: This pratice was done on Windows and have not tested on other platforms/OS
 2. Install Test Cafe: https://testcafe.io/documentation/402635/getting-started#installing-testcafe
 3. Install .NET 4.0 or newer: https://dotnet.microsoft.com/en-us/download
 4. Install Git: https://git-scm.com/downloads
-5. Install either Chrome or Firefox or both
+5. Install either Chrome or Firefox, referably both as default config uses both.
 
 ## How to run tests
 
