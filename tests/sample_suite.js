@@ -13,7 +13,7 @@ test('TC01 - Verify user can search for weather of a city', async t => {
     await HomePage.searchCity(DATA.TC01.input);
 	
     await t
-	    .expect(HomePage.dateInfo.visible).ok()                      // Verify visible
+        .expect(HomePage.dateInfo.visible).ok()                      // Verify visible
         .expect(HomePage.dateInfo.innerText).match(DATETIME_REGX)    // Verify display format
         .expect(await DateTime.checkDateEqual(                       // Verify display date match current date
             await DateTime.convertStringToDate(
