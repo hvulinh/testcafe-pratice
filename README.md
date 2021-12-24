@@ -61,9 +61,11 @@ Details:
 About reporters from Test Cafe:
 - https://testcafe.io/documentation/402825/guides/concepts/reporters  
 
-For this project, I also install another reporter: testcafe-reporter-html.  
+For this project, I also use another reporter: testcafe-reporter-html.  
 These reporters have been set up in the .testcaferc.json. More about reporters in config file:
-- https://testcafe.io/documentation/402638/reference/configuration-file#reporter 
+- https://testcafe.io/documentation/402638/reference/configuration-file#reporter  
+
+To check how reports show fail test case, you can uncomment TC02 in sample_suite.js and re-run the tests.
 
 ### Screenshots
 
