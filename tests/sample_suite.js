@@ -31,7 +31,7 @@ test('TC01 - Verify user can search for weather of a city', async t => {
         .takeScreenshot();
 });
 
-test('TC02 - Failed test case for reporting', async t => {
+/*test('TC02 - Failed test case for reporting', async t => {
     const DATETIME_REGX = /^$/;
 	
     await HomePage.searchCity(DATA.TC01.input);
@@ -40,4 +40,4 @@ test('TC02 - Failed test case for reporting', async t => {
         // Verify display date
         .expect(HomePage.dateInfo.visible).ok()                      // Verify visible
         .expect(HomePage.dateInfo.innerText).match(DATETIME_REGX)    // Verify display format
-});
+});*/
