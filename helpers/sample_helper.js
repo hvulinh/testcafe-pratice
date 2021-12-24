@@ -29,7 +29,7 @@ class DateTime {
 	 * @param {number} offset - The offset value (milisecond)
 	 * @return {boolean} - The comparing result: true if equal, otherwise false
 	 */
-	async checkDateEqual(date01, date02, offset = (1 * 60 * 1000)) {
+	async checkDateEqual(date01, date02, offset = (2 * 60 * 1000)) {
 		let duration = date01.getTime() - date02.getTime();
 		
 		if (Math.abs(duration) <= offset) {
