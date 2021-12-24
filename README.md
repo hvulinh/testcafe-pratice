@@ -54,19 +54,19 @@ Details:
 
 *Note: By default, I set this to 1 (no concurency) in .testcaferc.json.*
 
-## Reports & Screenshots
+## Reports and Screenshots
 
 ### Reports
 
 About reporters from Test Cafe:
-- https://testcafe.io/documentation/402825/guides/concepts/reporters
+- https://testcafe.io/documentation/402825/guides/concepts/reporters  
 For this project, I also install another reporter: testcafe-reporter-html.  
-These reporters have been set up in the .testcaferc.json. Details regarding the reporter in configuration file can be found here:
+These reporters have been set up in the .testcaferc.json. More about reporters in config file:
 - https://testcafe.io/documentation/402638/reference/configuration-file#reporter 
 
 ### Screenshots
 
-Test Cafe supports taking screenshots and set up path to save them in .testcaferc.json. Details:
+Test Cafe supports taking screenshots and set up path to save them in .testcaferc.json. More about screenshots in config file:
 - https://testcafe.io/documentation/402638/reference/configuration-file#screenshots
 
 ## Project structure
