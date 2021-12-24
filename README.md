@@ -1,4 +1,4 @@
-# TestCafe Pratice
+# Test Cafe Pratice
 
 This is my first practice using Test Cafe.  
 Note: This pratice was done on Windows and have not tested on other platforms/OSes.
@@ -24,20 +24,25 @@ Note: This pratice was done on Windows and have not tested on other platforms/OS
 
 ### Check out source code
 
-Clone the repository: `git clone https://github.com/hvulinh/testcafe-pratice.git`
-Navigate to root folder: `cd testcafe-practice`
+1. Clone the repository: `git clone https://github.com/hvulinh/testcafe-pratice.git`
+2. Navigate to root folder: `cd testcafe-practice`
 
 ### Run commands
 
-The simple command to run test with Test Cafe has the following format: testcafe <browser> <path-to-tests>.  
-So to run test with Chrome/Firefox, use: `testcafe chrome tests` or `testcafe firefox tests`  
-Browser options/arguments can be added to run command, for example:
+The simple command to run test with Test Cafe has the following format: testcafe \<browser\> \<path-to-tests\>.  
+So to run test with Chrome/Firefox, use:
+- `testcafe chrome tests` or
+- `testcafe firefox tests` or
+- `testcafe chrome, firefox tests` (this will trigger both browsers at the same time)  
+
+Browser options/arguments can also be added to run command, for example:
 - Chrome: `testcafe "chrome:headless '--window-size=1920,1080'"`
 - Firefox: `testcafe "firefox:headless '-width 1920' '-height 1080'"`
 
-Test Cafe also supports configuration file (.testcaferc.json) in which options like <browser> and <path-to-tests> can be set up before-hand.  
+Test Cafe also supports configuration file (.testcaferc.json) in which options like \<browser\> and \<path-to-tests\> can be set up before-hand.  
 In that case, run command can be as simple as: `testcafe`.  
-By default, I have set up so that this tests will run using both Chrome and Firefox at the same time in headless mode so make sure you have both installed or else it may fail. If that is not what you want than you can use the command noted above, it will overwrite the one in configuration file.
+
+*Note: By default, I have set up so that this tests will run using both Chrome and Firefox at the same time in headless mode so make sure you have both installed or else it may fail. If that is not what you want than you can use the command noted above, it will overwrite the one in configuration file.*
 
 ### Run tests concurrently
 
