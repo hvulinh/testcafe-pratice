@@ -8,6 +8,7 @@ Note: This pratice was done on Windows and have not tested on other platforms/OS
 - Node.js (v16.13.1)
 - npm (v8.1.2) (included when installing Node.js)
 - TestCafe (v1.17.1)
+- testcafe-reporter-html (v1.4.6) (plugin for reporter)
 - .NET 4.0 or newer (for screenshot functionality)
 - Git (v2.34.1)
 - Chrome, Firefox
@@ -16,9 +17,10 @@ Note: This pratice was done on Windows and have not tested on other platforms/OS
 
 1. Install Node.js, npm will be included together: https://nodejs.org/en/
 2. Install Test Cafe: https://testcafe.io/documentation/402635/getting-started#installing-testcafe
-3. Install .NET 4.0 or newer: https://dotnet.microsoft.com/en-us/download
-4. Install Git: https://git-scm.com/downloads
-5. Install either Chrome or Firefox, referably both as default config uses both.
+3. Install testcafe-reporter-html: https://www.npmjs.com/package/testcafe-reporter-html
+4. Install .NET 4.0 or newer: https://dotnet.microsoft.com/en-us/download
+5. Install Git: https://git-scm.com/downloads
+6. Install either Chrome or Firefox, referably both as default config uses both.
 
 ## How to run tests
 
@@ -51,6 +53,21 @@ Details:
 - https://testcafe.io/documentation/402963/guides/advanced-guides/speed-up-test-execution#run-tests-concurrently
 
 *Note: By default, I set this to 1 (no concurency) in .testcaferc.json.*
+
+## Reports & Screenshots
+
+### Reports
+
+About reporters from Test Cafe:
+- https://testcafe.io/documentation/402825/guides/concepts/reporters
+For this project, I also install another reporter: testcafe-reporter-html.  
+These reporters have been set up in the .testcaferc.json. Details regarding the reporter in configuration file can be found here:
+- https://testcafe.io/documentation/402638/reference/configuration-file#reporter 
+
+### Screenshots
+
+Test Cafe supports taking screenshots and set up path to save them in .testcaferc.json. Details:
+- https://testcafe.io/documentation/402638/reference/configuration-file#screenshots
 
 ## Project structure
 
