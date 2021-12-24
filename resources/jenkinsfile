@@ -20,6 +20,7 @@ pipeline {
         always {
             junit 'reports/**/*.xml'
         }
+        // TODO: Save report as artifact to job
         // TODO: Add step to clean up directory
     }
 }
