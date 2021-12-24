@@ -55,15 +55,15 @@ Details:
 ## Project structure
 
 > root  
-    |- tests               // contains test suites, test cases  
-    |- page_model          // contains locators, actions for pages  
-    |- data                // contains test data  
-    |- helpers             // contains helpers/utilities  
-    |- reports             // contains reports after running tests  
-    |- screenshots         // contains screenshots after running tests  
-    |- resources           // contains other resources, scripts,...  
-    |- .testcaferc.json    // configuration file for Test Cafe  
-    |- README.md           // overview of this project  
+>    |- tests               // contains test suites, test cases  
+>    |- page_model          // contains locators, actions for pages  
+>    |- data                // contains test data  
+>    |- helpers             // contains helpers/utilities  
+>    |- reports             // contains reports after running tests  
+>    |- screenshots         // contains screenshots after running tests  
+>    |- resources           // contains other resources, scripts,...  
+>    |- .testcaferc.json    // configuration file for Test Cafe  
+>    |- README.md           // overview of this project  
 
 ## CI/CD Solution
 
