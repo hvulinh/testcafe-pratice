@@ -1,20 +1,20 @@
 {
-	"browsers": ["chrome:headless", "firefox:headless"],
-	"src": ["tests/"],
-	"concurrency": 1,
-	"screenshots" : {
-		"path": "screenshots/",
-		"pathPattern": "${DATE}_${TIME}/${BROWSER}/${TEST_ID}-SS${FILE_INDEX}.png",
-		"thumbnails": false,
-		"takeOnFails": true
-	},
-	"reporter": [
-	    {
-			"name": "spec"
-		},
-	    {
-		    "name": "xunit",
+    "browsers": ["chrome:headless", "firefox:headless"],
+    "src": ["tests/"],
+    "concurrency": 1,
+    "screenshots" : {
+        "path": "screenshots/",
+        "pathPattern": "${DATE}_${TIME}/${BROWSER}/${TEST_ID}-SS${FILE_INDEX}.png",
+        "thumbnails": false,
+        "takeOnFails": true
+    },
+    "reporter": [
+        {
+            "name": "spec"
+        },
+        {
+            "name": "xunit",
             "output": "reports/report.xml"
-	    }
-	]
+        }
+    ]
 }

@@ -3,23 +3,23 @@ pipeline {
     stages {
         stage('Setup Test Environment') {
             steps {
-			    bat '''
-			        npm install testcafe testcafe-reporter-xunit
-				'''
-			}
+                bat '''
+                    npm install testcafe testcafe-reporter-xunit
+                '''
+            }
         }
         stage('Run Tests') {
             steps {
-			    bat '''
-			        node_modules/.bin/testcafe "chrome:headless '--window-size=1920,1080'"
-				'''
-			}
+                bat '''
+                    node_modules/.bin/testcafe "chrome:headless '--window-size=1920,1080'"
+                '''
+            }
         }
     }
-	post {
-		always {
-			junit 'reports/**/*.xml'
-		}
-		// TODO: Add step to clean up directory
-	}
+    post {
+        always {
+            junit 'reports/**/*.xml'
+        }
+        // TODO: Add step to clean up directory
+    }
 }
