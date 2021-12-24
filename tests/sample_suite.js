@@ -13,18 +13,18 @@ test('TC01 - Verify user can search for weather of a city', async t => {
     await HomePage.searchCity(DATA.TC01.input);
 	
     await t
-	    // Verify display date
+        // Verify display date
         .expect(HomePage.dateInfo.visible).ok()                      // Verify visible
         .expect(HomePage.dateInfo.innerText).match(DATETIME_REGX)    // Verify display format
         .expect(await DateTime.checkDateEqual(                       // Verify display date match current date
             await DateTime.convertStringToDate(
                 await HomePage.dateInfo.innerText), new Date())).ok()
 		
-		// Verify display location
+        // Verify display location
         .expect(HomePage.locInfo.visible).ok()                               // Verify visible
         .expect(HomePage.locInfo.innerText).eql(DATA.TC01.expectedOutput)    // Verify location output
 		
-		// Verify display temperature
+        // Verify display temperature
         .expect(HomePage.tempInfo.visible).ok()                  // Verify visible
         .expect(HomePage.tempInfo.innerText).match(TEMP_REGX)    // Verify display format
 
