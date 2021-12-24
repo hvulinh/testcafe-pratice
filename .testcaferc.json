@@ -15,6 +15,10 @@
         {
             "name": "xunit",
             "output": "reports/report.xml"
+        },
+		{
+            "name": "html",
+            "output": "reports/report.html"
         }
     ]
 }
