@@ -60,6 +60,7 @@ Details:
 
 About reporters from Test Cafe:
 - https://testcafe.io/documentation/402825/guides/concepts/reporters  
+
 For this project, I also install another reporter: testcafe-reporter-html.  
 These reporters have been set up in the .testcaferc.json. More about reporters in config file:
 - https://testcafe.io/documentation/402638/reference/configuration-file#reporter 
