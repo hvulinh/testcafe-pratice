@@ -4,7 +4,7 @@ pipeline {
         stage('Setup Test Environment') {
             steps {
                 bat '''
-                    npm install testcafe testcafe-reporter-xunit
+                    npm install testcafe testcafe-reporter-xunit testcafe-reporter-html
                 '''
             }
         }
