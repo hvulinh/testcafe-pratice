@@ -55,15 +55,15 @@ Details:
 ## Project structure
 
 > root  
-&emsp; |- tests               // contains test suites, test cases  
-&emsp; |- page_model          // contains locators, actions for pages  
-&emsp; |- data                // contains test data  
-&emsp; |- helpers             // contains helpers/utilities  
-&emsp; |- reports             // contains reports after running tests  
-&emsp; |- screenshots         // contains screenshots after running tests  
-&emsp; |- resources           // contains other resources, scripts,...  
-&emsp; |- .testcaferc.json    // configuration file for Test Cafe  
-&emsp; |- README.md           // overview of this project  
+&emsp; |- tests               &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;// contains test suites, test cases  
+&emsp; |- page_model          &emsp;&emsp;&emsp;&nbsp;// contains locators, actions for pages  
+&emsp; |- data                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&nbsp;// contains test data  
+&emsp; |- helpers             &emsp;&emsp;&emsp;&emsp;&emsp;&ensp;// contains helpers/utilities  
+&emsp; |- reports             &emsp;&emsp;&emsp;&emsp;&emsp;&ensp;// contains reports after running tests  
+&emsp; |- screenshots         &emsp;&emsp;&emsp;&ensp;// contains screenshots after running tests  
+&emsp; |- resources           &emsp;&emsp;&emsp;&emsp;&ensp;// contains other resources, scripts,...  
+&emsp; |- .testcaferc.json    &emsp;&emsp;// configuration file for Test Cafe  
+&emsp; |- README.md           &emsp;&emsp;&ensp;// overview of this project
 
 ## CI/CD Solution
 
